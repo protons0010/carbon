@@ -1,0 +1,178 @@
+
+html{scroll-behavior: smooth;}
+
+
+#topper_header_nav   a,
+#communication a{color:#fff; font-size:16px;font-weight:500;}
+
+#communication {background-color:#111 !important;}
+
+#communication ul {
+	list-style: none;
+}
+#topper_header_nav{
+	background-color:#2e0257;
+}
+
+#logo{
+	font-size:34px;
+ }
+ 
+
+.btn-hero{
+ 	background-color:#fff !important;
+ 	color:#2e0257;
+ 	border-radius:1.5rem !important;
+ 	border:3px solid #fff;
+ 	font-weight:bold;
+ }
+
+
+/*product top css*/
+
+ 
+ 
+
+.overlay-right {
+  display: block;
+  opacity:0;
+  position: absolute;
+  top: 10%;
+  margin-left:0;
+  width: 70px;
+
+}
+
+.overlay-right .fa{
+  cursor:pointer;
+  background-color:#48dbfb;
+  color: #000;
+  height:35px;
+  width:35px;
+  font-size:20px;
+  padding: 7px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.overlay-right .btn-secondaru{
+  background-color:none !important;
+  border:none !important;
+  box-shadow: none !important;
+}
+
+.product-top:hover .overlay-right{
+  opacity: 1;
+  margin-left:5%;
+  transition: 0.5s;
+}
+
+/*product bottom */
+.product-bottom {
+    background: #030a10;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.product-bottom  h3 {
+    color: #ffab12;
+}
+
+.product-bottom  h5 {
+    color: #48dbfb;
+    font-weight: 900;
+}
+/*on sale produycuc*/
+
+.tittle-box{
+  background-color: orange;
+  color: #fff;
+  width: 310px;
+  padding:4px 10px;
+  height:40px;
+  margin:0px auto 30px;
+  display:flex;
+
+}
+ 
+
+.tittle-box::before{
+  content: '';
+  border-top: 50px solid #f1f3f4;
+  border-right: 69px solid transparent;
+  position:absolute;
+  display: flex;
+  margin-top: -10px;
+  margin-left: -29px;
+  transform: rotate(254deg);
+}
+
+.tittle-box h2{
+  font-size:24px;
+  margin:auto;
+}
+
+
+
+/* =============== */
+/* START PORTFOLIO SECTION */
+/* =============== */
+.section{display:flex;max-width:120rem;width:100%;justify-content:center;align-items:center;flex-wrap:wrap;margin:auto;}
+
+.portfolio-section {text-align:center;/*background: linear-gradient(rgba(255, 221, 153, 0.6),rgba(255, 221, 153, 0.44)),url(image/portfolio-bg.jpg);
+	               background-repeat: no-repeat;background-size: cover;background-attachment: fixed;background-position:center center;*/}
+
+.portfolio-filter button{background:#ebc985;font-size:1.3rem;padding:.5rem 1rem;border:0;border-radius:.5rem;
+	text-transform:uppercase;color:#3c4761;margin:3rem .5rem 5rem  .5rem;transition:.5s;}                      
+.portfolio-filter button:hover{cursor: pointer;box-shadow:inset .5rem 4rem .5rem #3c47618a;}
+.portfolio-section img{width:100%;height:auto;}  
+.columns{flex:100%;margin:1rem;max-width:26rem;}
+.portfolio-section .columns:nth-child(3) {margin-left:0;}
+.portfolio-section .btn-load-more{background:#17c2a4;border-color:#14a58c;margin-top:5rem;}
+.portfolio-section .mixitup-control-active{background:#fff;}
+/* =============== */
+/* END PORTFOLIO SECTION */
+/* =============== */
+/*Start Support center*/
+#support_center i.fa.fa {
+    font-size: 60px;
+}
+
+
+
+/*End support center*/
+
+
+
+
+/*Start Responsive Design*/
+
+@media (max-width:1200px){
+   
+   .columns{flex:50%;margin:1rem;max-width:26rem;}
+
+   .portfolio-section .columns{flex:50%;margin:0rem;max-width:60rem;}
+}
+
+
+
+@media (max-width:800px){
+   
+   .columns{flex:100%;margin:1rem;max-width:25rem;}
+
+   .portfolio-section .columns{flex:100%;margin:0rem;max-width:50rem;}
+ 
+}
+
+
+@media only screen and (max-width:400px;){
+	.portfolio-section  p{font-size: 1.3rem;
+    width: 36rem;
+    text-align: center;
+    margin-left: 8rem;
+    line-height: 1.9rem;text-align: center;}
+
+
+	
+}

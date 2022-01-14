@@ -1,0 +1,61 @@
+
+
+html{scroll-behavior: smooth;}
+
+
+#topper_header_nav   a,
+#communication a{color:#fff; font-size:16px;font-weight:500;}
+
+#communication ul {list-style: none;}
+
+#topper_header_nav{	background-color:#2e0257;}
+
+#logo{	font-size:34px; }
+
+
+
+*{margin:0;padding:0;font-family:sans-serif;}
+
+
+
+body{
+	background-color:#0601017a;background-size:cover;margin:auto;}
+.ahmed{padding:30px 20px; }
+
+.hasanahmed { max-width: 600px;padding:2rem;background:#0601017a;
+box-sizing: border-box;box-shadow:-1px -1px 30px rgba(0,0,0,.5);
+border-radius:12px;text-align: center;margin:auto;}
+
+form{background:#0601017a;border-top-right-radius:2rem;border-bottom-left-radius:2rem;color:#ddd;padding-bottom:16px;}
+
+.hasanahmed h2{color:#fff;font-family: cursive;font-size:1rem;
+font-weight:100;}
+
+input{width:60%;padding:0.8rem;margin-top:.9rem;
+	border-radius:20px;border:none;color: #123;font-size:.8rem;}
+
+input::placeholder{font-size:14px;}
+
+input:hover{background:orange;font-size:.8rem;}
+
+input:focus{
+	border: none;
+}
+
+button{width: 20%;padding:0.8rem;background-color:#0071ff;border:none;border-radius: 5px;color: #ddd;
+	display: block;text-align: center;margin:24px auto;}
+
+button:hover{background:#394bea;box-shadow:-1px -1px 30px #0071ff, -1px -1px 44px #0601017a;
+opacity:0.5,0.9;}
+
+.have_Accout {background:#0601017a;border-top-right-radius:2rem;border-bottom-left-radius:2rem;}
+
+.have_Accout h2{padding:2rem;background-color:#0601017a;border:none;outline: none;background:#0601017a;
+	border-top-right-radius:2rem;border-bottom-left-radius:2rem;}
+.have_Accout h2 a{color:red;text-decoration:none;}
+.have_Accout h2 a:hover{text-decoration: underline;font-weight:900;}
+
+
+@media screen and (max-width:768px){
+	button{width:37%;}
+}
